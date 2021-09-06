@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas 45 JS</title>
+  </head>
+  <body>
+    <!-- <button onclick="goForward()">Maju</button> -->
+    <p id="href"></p>
+
+    <button onclick="hrefLocation()">Lihat Href</button>
+    <script>
+      // function goForward(){
+      //   window.history.forward();
+      // }
+      function hrefLocation(){
+        var x = location.href;
+        document.getElementById("href").innerHTML = x;
+      }
+    </script>
+  </body>
+</html>
